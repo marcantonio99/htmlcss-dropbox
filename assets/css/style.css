@@ -49,3 +49,75 @@ header{
     padding: 5px;
     border: 1px solid black;
 }
+
+.section1{
+    width: 100%;
+    margin: auto; 
+    background-color:#b4d0e7;
+}
+.secdiv1{
+  width: 70%;
+  margin: 0 auto;
+  height: 650px;   
+}
+
+
+h1{
+    text-align: left;
+    padding-top: 50px;
+    align-items: center;
+    font-size: 4.5rem;
+    width: 90%;
+
+}
+
+.left{
+    width: 30%;
+    float:left;
+    margin-top: 30px;
+}
+
+
+.right{
+    width: 70%;
+    align-items: right;
+    float: right;
+    margin-top: 15px;
+}
+
+.right img{
+    width:100%;
+    
+}
+
+#arrow{
+    font-size: 5.0rem;
+}
+
+.delete{
+    margin-bottom:60px;
+    margin-top:20px;
+}
+
+.section2{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:100px;
+    
+}
+.secdiv2 h3{
+font-size: 2.5rem;
+}
+
+.radio{
+    margin-top:40px;
+}
+
+.btn-blue2{
+    padding:10px;
+    background-color: #0061ff;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
