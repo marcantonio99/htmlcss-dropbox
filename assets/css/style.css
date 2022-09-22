@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexmenu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-1 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-2 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
