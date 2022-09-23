@@ -137,3 +137,41 @@ font-size: 2.5rem;
     border-bottom: 1px solid #dedfe1;
     padding: 7px 0;
 }
+
+.mainaside{
+    padding: 1.5rem 1.5rem;
+}
+
+.mainaside ul, li{
+    padding: 1rem 0rem;
+}
+
+.mainaside h3{
+    font-size: 2rem;
+}
+
+.mainaside h4, p, h3{
+    padding: 1rem 0rem;
+}
+
+.btnaside{
+    background-color: #0061ff;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px #0061ff;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.btnaside a{
+    text-decoration: none;
+    color: white;
+}
+
+.hr-line{
+    width: 25%;
+    border-bottom: solid 2px #c5c5c5;
+    margin: 20px 0;
+}
