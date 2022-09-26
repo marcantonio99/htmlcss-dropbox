@@ -9,45 +9,47 @@
 /* HEADER */
 header{
     background-color: white;
-    padding: 20px;
+    padding: 15px 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    min-height: 65px;
+    align-items: center;
+    width: 100%;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    
+header a {
+  text-decoration: none;
+  color: black;
 }
 
 .flexmenu{
     display: flex;
-    justify-content: space-between;
-    
+    align-items: center;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    z-index: 10;
 }
 
-.nav-1 li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 30px;
-}
-
-.nav-2 li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 20px;
+.flexmenu > div{
+    padding: 1rem;
 }
 
 .btn-blue{
-    background-color: #0061ff;
     color: white;
-    border: 1px solid black;
-    padding: 5px;
+  background-color: #0061ff;
+  text-align: center;
+  padding: 0.6rem;
 }
 
-.btn-grey{
+.btn-white{
     background-color: white;
     color: black;
-    padding: 5px;
-    border: 1px solid black;
+    text-align: center;
+    padding: 0.6rem;
 }
 
 /*MAIN*/
