@@ -199,3 +199,310 @@ font-size: 1.9rem;
     color: blue;
     font-size: 1.3rem;
 }
+
+#bottom-plan {
+    width: 70%;
+    border: solid 1px #dedfe1;
+    margin-top: 40px;
+    margin-left: 18rem;
+}
+  
+#bottom-plan .clearfix {
+    padding: 1.5rem 1.5rem;
+}
+  
+#entreprise {
+    float: left;
+    font-size: 1.8rem;
+}
+  
+.text-bottom-plan {
+    padding: 1.5rem 1.5rem;
+}
+  
+.text-bottom-plan h4 {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+  
+#bottom-plan .clearfix button {
+    float: right;
+}
+  
+.find-partner {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    width: 70%;
+    margin-left: 18rem;
+}
+  
+.find-partner img {
+    width: 60%;
+    float: left;
+}
+  
+.text-find-partner {
+    width: 40%;
+    float: left;
+    padding: 1.5rem 1rem;
+}
+  
+.text-find-partner h3 {
+    font-size: 2rem;
+}
+  
+.text-find-partner p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+  
+.text-find-partner button a {
+    color: white;
+}
+
+.btnpartner{
+    background-color: white;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px lightgrey;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+  
+.multitask {
+    width: 70%;
+    margin: auto;
+    font-size: 1.7rem;
+}
+  
+.card {
+    width: calc(100% / 3);
+    margin: 2rem;
+}
+  
+.card img {
+    width: 100%;
+}
+  
+.card-dad {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+  
+  .card-dad h4, p {
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .team {
+    width: 70%;
+    margin: auto;
+    margin-top: 13rem;
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+  }
+  
+  .team a{
+    margin-left: 3rem;
+  }
+  .card-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 35rem; 
+  }
+  
+  .sxbottom,
+  .dxbottom,
+  .midbottom {
+    flex-wrap: wrap;
+    display: flex;
+    width: calc(100vw/2);
+  }
+  
+  .fleximg {
+    flex-basis: 50%;
+    height: 10rem;
+    padding: 0rem;
+    
+  }
+  
+  .fleximg img {
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+  }
+  
+  .greenbox {
+    background-color: #a2d39b;
+  }
+  
+  .redbox {
+    background-color: red;
+  }
+  
+  .bordeauxbox {
+    background-color: #9b0032;
+  }
+  
+  .lightbox {
+    background-color: #14c8eb;
+  }
+  
+  
+  .lightbluebox {
+    background-color: #b4c8e1;
+  }
+  
+  .bluebox {
+    background-color: #283750;
+  }
+  
+  .yellowbox {
+    background-color: #fad24b;
+    
+  }
+  
+  .midbottom {
+    background-color: lightgrey;
+  }
+  
+  .midbottom img{
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  
+  .boxheight {
+    height: 50%;
+    padding: 0.6rem;
+  }
+  
+  .midimg {
+    float: left;
+    margin-left: 2.5rem;
+    height: 10%;
+  }
+  
+  .hrbot {
+    margin-top: 1.5rem;
+    width: 30%;
+    margin-left: 2rem;
+  }
+  
+  .botmidtext {
+    font-size: 1.2rem;
+    width: 70%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  
+  .bluefooter {
+    display: flex;
+    width: 100%;
+    background-color: #B4D0E7;
+    font-size: 2rem;
+    height: 25rem;
+    color: #8e002d;
+  }
+  
+  .col1foot{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .col2foot button {
+    margin-top: 1.5rem;
+    border: 1px solid transparent;
+    width: 20rem;
+    margin-left: 3rem;
+    padding: 0.5rem 1rem;
+    margin-top: 5rem;
+  }
+  
+  .questioncontainer {
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 11rem;
+  }
+  
+  .question {
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .question2 h4 , h2{
+    padding: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .fa-chevron-down {
+    float: right;
+  }
+  
+  .finalfootcontainer {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 5rem;  
+  }
+  
+  .footul {
+    width: calc(100vw/5);
+    margin: 5rem;
+  }
+  
+  .footul a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footul ul {
+    list-style-type: none;
+  }
+  
+  .footul h3 {
+    font-size: 1.5rem;
+  }
+  
+  .final {
+    padding: 1rem 1rem;
+    display: flex;
+    margin: auto;
+  }
+  
+  .fine {
+    width: 25%;
+    margin: 0rem 6rem;
+  }
+  
+  .fine hr {
+    margin-bottom: 1.5rem;
+  }
+  
+  .question-answer {
+    display: none;
+  }
+  
+  .question2 h4:hover .question-answer {
+    display: block;
+    margin-top: 1rem;
+  
+  }
+  
+  .question2:hover i {
+    transform: rotate(540deg);
+    transition-delay: 0.5s;
+    transition: all 1.6s;
+  }
+  
+  .question-answer {
+  font-weight: 400;
+    
+  }
